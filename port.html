@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio website-SP</title>
+    <link rel="stylesheet" href="stylep.css">
+    <script src="https://kit.fontawesome.com/b140c5b1af.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="sp.jpg" alt="sp" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#service">services</a></li>
+                    <li><a href="#portfolio">portfolio</a></li>
+                    <li><a href="#contact">contact</a></li>
+                    <i class="fa-solid fa-xmark sicon" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars sicon" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>web developer</p>
+                <h1>Hi, I'm <span>subhasmita panda</span><br> from india</h1>
+                <p class="aboutm">Welcome to My Web Development Portfolio!I'm excited to have you explore my portfolio
+                    and <br>
+                    get a glimpse into the world of code, design, and creativity.</p>
+
+            </div>
+        </div>
+    </div>
+    <!-- ------------about--------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/subha12.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-titale">About Me</h1>
+                    <p>Hello there! I'm <span>Subhasmita</span>. As a passionate and dedicated web developer, I've had
+                        the privilege of bringing digital dreams to life through elegant and functional websites.Whether
+                        it's turning intricate designs into pixel-perfect websites, optimizing user journeys for
+                        seamless interactions, or diving into the latest web technologies to stay ahead of the curve, I
+                        approach every project with a blend of creativity and technical expertise.</p>
+                    <div class="tab-title">
+                        <p class="tab-link active-link" onclick="opentabb('skill')">Skill</p>
+                        <p class="tab-link" onclick="opentabb('experiance')">experiance</p>
+                        <p class="tab-link" onclick="opentabb('education')">education</p>
+                    </div>
+                    <div class="tab-content active-tab" id="skill">
+                        <ul>
+                            <li><span>web Development</span><br>web App Development</li>
+                            <li><span>database Management</span><br>manage the data on a project</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="experiance">
+                        <ul>
+                            <li><span>java developer</span><br>intern at jubenelia</li>
+                            <li><span>project trenee</span><br>tranee at S.T.l</li>
+                        </ul>
+                    </div>
+                    <div class="tab-content" id="education">
+                        <ul>
+                            <li><span>2020-2022</span><br>MCA at IMIT,CUTTACK</li>
+                            <li><span>2017-2020</span><br>BSc in Physics Hons. at BERHAMPUR UNIVERSITY </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ------------service---------- -->
+    <div id="service">
+        <div class="container">
+            <h1 class="sub-titale">My service</h1>
+            <div class="service-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web Design</h2>
+                    <p>User-centered design is at the heart of everything I do. I create interfaces that not only look
+                        visually appealing but also provide seamless and intuitive user experiences.f you're venturing
+                        into the world of online retail, I can help you set up a robust and user-friendly e-commerce
+                        platform.</p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-database"></i>
+                    <h2>Database Management</h2>
+                    <p>Your data's security is my priority. I implement robust security measures to protect sensitive
+                        information and ensure compliance with industry standards, giving you peace of mind while
+                        handling critical data. I can help you create informative dashboards and visual representations
+                        that facilitate data interpretation.
+                    </p>
+                    <a href="#">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>app develop</h2>
+                    <p>Your vision is unique, and so should be your app. I specialize in crafting bespoke mobile
+                        applications that cater to your specific goals, whether it's enhancing user engagement,
+                        improving processes, or creating new revenue streams. I firmly believe that great apps start
+                        with great design. I'm well-versed in  integrating a wide range of functionalities into your app.
+                       </p>
+                    <a href="#">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------portfolio---------- -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-titale">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="lapi2.jpg" alt="">
+                    <div class="layer">
+                        <h3>App develop</h3>
+                        <p> Each app in my portfolio represents a problem solved and a user need fulfilled. From
+                            designing sleek interfaces that enhance usability to coding complex functionalities that
+                            work flawlessly, I take pride in transforming concepts into reliable and feature-rich
+                            applications.</p>
+                        <a href="#" class="app"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="web-designing-institute.jpg" class="img21" alt="">
+                    <div class="layer">
+                        <h3>Website design</h3>
+                        <p> Beyond just coding, I understand the importance of aesthetics and user-centered design. My
+                            background in design principles empowers me to create websites that not only function
+                            flawlessly but also captivate the eye and provide an enjoyable user experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="images1.png" alt="" class="img22">
+                    <div class="layer">
+                        <h3>Database Management</h3>
+                        <p>A well-structured database is the cornerstone of any successful application. My portfolio
+                            demonstrates my proficiency in designing database schemas that not only accommodate current
+                            needs but also scale seamlessly as data demands grow.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+    <!-- ----------------contact-------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-titale">contact me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>subhasmitaspanda@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i></p>
+                    <div class="social-icon">
+                        <a href="https://www.linkedin.com/in/subhasmita-panda-bbba07234"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                        <a href="subhassmitapanda@gmail.com"><i class="fa-regular fa-envelope"></i></a>
+                    </div>
+                    <a href="RESUME1.pdf" Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form action="" name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg1"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright @ subhasmita.<i class="fa-solid fa-heart"></i></p>
+        </div>
+    </div>
+
+    <script>
+        var tablink = document.getElementsByClassName("tab-link");
+        var tabcontent = document.getElementsByClassName("tab-content");
+        function opentabb(tabname) {
+            for (tablinks of tablink) {
+                tablinks.classList.remove("active-link");
+            }
+            for (tabcontents of tabcontent) {
+                tabcontents.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemenu.style.right = "0";
+        }
+        function closemenu() {
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxaLUDC5_hQP6fk6nP9EJRJKM_CWJ9brk0H0FjEc_KusTcVFCf1k3UCL9ebD2gBrj14/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg1 = document.getElementById("msg1")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg1.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg1.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
